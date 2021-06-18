@@ -2,7 +2,7 @@ import Location from '../models/Location.js';
 import Forecast from '../models/Forecast.js';
 
 
-const API_WEATHER_URL = 'http://api.weatherapi.com/v1/forecast.json';
+const API_WEATHER_URL = 'https://api.weatherapi.com/v1/forecast.json';
 const KEY_API = '8d751f8c7c644ffbae2152909211406';
 
 const getForecastLocation = async (query) => {
