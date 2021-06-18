@@ -1,0 +1,92 @@
+.wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card {
+    background: white;
+    width: 90%;
+    display: inline-block;
+    margin: auto;
+    border-radius: 19px;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.card-image-sky {
+    background: url('https://cdn.pixabay.com/photo/2017/03/17/19/37/sky-2152463_960_720.jpg');
+}
+
+.card-image-sky img {
+    width: 128px;
+    height: 128px; 
+}
+
+.card-date {
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    color:black;
+}
+
+.card-time {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 5px;
+
+}
+
+.card-description {
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.card-stats{
+    font-weight: 700;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.card-stats .one-third {
+    border-right: 1px solid #BD7C2F;
+}
+
+.card-stats .no-border {
+    border-right: none;
+}
+
+.card-stats .one-third {
+    width: 33%;
+    float: left;
+    padding: 10px 0px;
+}
+
+.card-stats sup {
+    position: absolute;
+    bottom: 4px;
+    font-size: 45%;
+    margin-left: 2px;
+}
+
+
+.card-stats .stat {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-stats .stat-value {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+}
